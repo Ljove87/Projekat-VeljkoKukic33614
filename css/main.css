@@ -6,6 +6,10 @@
     font-family: 'PlayfairDisplay';
     src: url(../fonts/PlayfairDisplay-Regular.otf) format("opentype");
 }
+@font-face {
+    font-family: 'Scriptina';
+    src: url(../fonts/SCRIPTIN.ttf) format('truetype');
+}
 
 * {
     margin:0;
@@ -14,7 +18,7 @@
 }
 
 body {
-    background-color: rgba(63, 63, 63, 0.219);
+    background-color: rgba(73, 70, 70, 0.253);
     font-size: 18px;
     line-height: 1.6rem;
     font-family: 'PlayfairDisplay', 'Alegreya', 'Helvetica', sans-serif;
@@ -217,12 +221,13 @@ body {
 }
 
 .box h2 {
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 150%;
+    margin-bottom: -50px;
 
 }
 
-#boxes .box img {
+#boxes .box .cane{
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -240,7 +245,7 @@ body {
 /* Blockquote syling */
 
 blockquote {
-    font-family:'Alegreya', sans-serif; 
+    font-family:'Scriptina', sans-serif; 
     font-size: 25px;
     font-style: italic;
     width: 500px;
@@ -248,16 +253,16 @@ blockquote {
     padding: 3em 40px;
     line-height: 1.45;
     position: relative;
-    color: #383838;
+    color: #66614c;
     }
 blockquote:before {
     display: block;
-    content: "\2019""\2019";
+    content: "\201C";
     font-size: 80px;
     position: absolute;
     top: -20px;
     color: #c5b8b8;
-    padding-top: 90px;
+    padding-top: 80px;
     margin-left: 400px;
  }
  blockquote:after {
@@ -270,3 +275,19 @@ blockquote:before {
     color: #c5b8b8;
     padding-top: 50px;
  }
+
+ /* Right box styling */
+
+.column {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        margin-top: 20px;
+}
+  
+.column img {
+    background-color: #f1f1f1;
+    width: 280px;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
