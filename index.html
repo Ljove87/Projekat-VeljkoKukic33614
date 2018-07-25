@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/dropdownbtn.js"></script>
     <title>Projekat/Početna</title>
 </head>
 <body>
@@ -91,11 +92,22 @@
 <section id="js-slider">
     <div class="container2">
        <div class="insidewrapper">
-            <div id="images" class="images"></div>
+            <div id="images" class="images">
+                <ul class="slides">
+                    <li class="slide"><img src="images/js-slider/1.jpg"></li>
+                    <li class="slide showing"><img src="images/js-slider/2.jpg"></li>
+                    <li class="slide"></li>
+                    <li class="slide"></li>
+                    <li class="slide"></li>
+                </ul>
+            </div>
         </div>
         <div class="insidewrapper">
             <div class="info-slider">
                 <img src="images/js-slider/windmill.jpg" alt="">
+                <h1>Ukusne palačinke</h1>
+                <h5>SEASON FAVORITE</h5>
+                <p>Slatke palačinke spremljene na američki način. Raznih preliva i dodataka po želji mušterja. Probajte, svideće Vam se!</p>
             </div>
         </div>
     </div>
@@ -110,34 +122,54 @@
        <div class="row">
                 <img src="images/endsection/first.jpg" alt="">
                 <h4>Pšenica</h4>
-                <p>Sda djks kskjj akjdj</p>
+                <p>Domaća pšenica sa naših njiva</p>
         </div>
         <div class="row">
                 <img src="images/endsection/second.jpg" alt="">
                 <h4>Jaja</h4>
-                <p>Opd kaqvtra javbane</p>
+                <p>Domaća jaja vrhunskog kvaliteta</p>
         </div>
         <div class="row">
                 <img src="images/endsection/third.jpg" alt="">
                 <h4>Mast</h4>
-                <p>Est dani mek istim</p>
+                <p>Sir koji je posebno spreman za ovakve prilike!</p>
         </div>
     </div>
     <aside class="right-info1">
-        <img src="images/endsection/sandwitch.jpg">
+        <img src="images/endsection/sandwitch.jpg"><br>
+        <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">FULL RECIPE</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <p>5 eggs</p>
+                    <p>0.2l milk</p>
+                    <p>100g bacon</p>
+                    <p>200g flour</p>
+                  </div>
+        </div>
     </aside>
     <aside class="right-info2">
        <div class="row2">
-         <h1>Prep</h1>
+         <h4>PRIPREMA</h4>
+         <h3>15</h3>
+         <p>minuta</p>
        </div>
        <div class="row2">
-          <h1>Cook</h1>
+          <h4>KUVANJE</h4>
+          <h3>25</h3>
+          <p>minuta</p>
        </div>
        <div class="row2">
-          <h1>READY IN</h1>
+          <h4>SPREMNO ZA</h4>
+          <h3>40</h3>
+          <p>minuta</p>
        </div>
     </aside>
+    
     </div>
 </section>
+<!-- End of last section  footer begins-->
+<footer>
+    <p>Dobrodošli u moj svet kulinarstva &copy;<b><span>Cane</span></b></p>
+</footer>
 </body>
 </html>
