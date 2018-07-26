@@ -75,7 +75,6 @@ body {
     background-color: #c0c0c086;
     top:0;
     position: fixed;
-    z-index: 5;
     
 }
 
@@ -195,10 +194,6 @@ body {
     float:left;
     text-align:center;
     margin-top: 50px;
-    background-color: #f4f4f4;
-    border-radius: 5px;
-    border-bottom:none;
-    border-right:none;
 }
 
 #boxes .box h4 {
@@ -206,7 +201,7 @@ body {
     padding-top: 20px;
     font-family: 'Alegreya', sans-serif;
     font-weight: 500;
-    color: #333;
+    color: rgb(3, 3, 3);
 }
 #boxes .box p {
     padding: 45px 35px 0 45px;
@@ -222,13 +217,12 @@ body {
     font-size:250%;
     padding-top: 20px;
     font-family: 'PlayfairDisplay', sans-serif;
-    color: #4b4a4a;
+    color: #030303;
 }
 
 .box h2 {
     padding-top: 50px;
     font-size: 150%;
-    margin-bottom: -50px;
 
 }
 
@@ -244,7 +238,7 @@ body {
 }
 
 .hrs hr {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 /* Blockquote syling */
@@ -302,99 +296,62 @@ blockquote:before {
     border: 1px solid rgba(121, 121, 121, 0.432);
 }
 
-/* JS slider and another section */
 
-#js-slider {
+/* 3 Box Section*/
+#boxes2 {
     width: 100%;
-    max-width: 1440px;
+    margin: 0 auto;
+    width: 1440px;
     height: 800px;
-    margin:0 auto;
-    background: url(../images/js-slider/flouregg.jpg);
+    background-image: url('../images/js-slider/flouregg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#boxes2 .boxie {
+    margin: 0 auto;
+    width: 80%;
+}
+#boxes2 .box2 {
+    width: 25%;
+    float:left;
+    text-align:center;
+    margin-top: 50px;
+    padding: 35px;
+    margin-left: 80px;
+    background-color: #f4f4f49f;
+    border-radius: 5px;
+    box-shadow: 5px 8px 18px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    height: 550px;
 }
 
-.container2 {
-    width: 60%;
-    margin:0 auto;
+#boxes2 .box2 h3 {
+    font-size: 180%;
+    padding-top: 40px;
+    font-family: 'AlegreyaBold', sans-serif;
+    font-weight: 300;
+    color:rgba(164, 125, 94, 0.8);
 }
-
-#js-slider .insidewrapper{
-    margin-top: 200px;
-    position: absolute;
+#boxes2 .box2 p {
+    padding: 25px 25px 0 25px;
     text-align: center;
-}
-.insidewrapper h5 {
-    color:  rgba(164, 125, 94, 0.8);
-    padding-top:10px;
-}
-.insidewrapper h1 {
-    padding-top: 50px;
-}
-.insidewrapper p {
-    padding-top: 30px;
-    padding: 25px;
-    font-size: 90%;
-    letter-spacing: 1px;
-}
-#js-slider .images {
-    width: 400px;
-    height: 400px; 
-    background: #f3f3f3;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+    font-size: 80%;
 
 }
 
-/* Slider */
-
-#slides {
-    position: relative;
-    height: 300px;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
+#boxes2 .box2 img {
+    width:40%;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 245, 245, 0.562);
 }
 
-.slide img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 400px;
-    height: 400px;
-    opacity: 0;
-    z-index: 1;
-
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
+#boxes2 h1 {
+    text-align:center;
+    padding-top:80px;
+    font-size:250%;
+    color: #ffffff;
 }
-
-.showing img{
-    opacity: 1;
-    z-index: 2;
-}
-
-/* Slider */ 
-
-#js-slider .info-slider {
-    width: 500px;
-    height: 400px;
-    background: #ffffff;
-    margin-left: 401px;
-    position: relative;
-}
-
-.info-slider img {
-    height: 300px;
-    position: absolute;
-    bottom:0;
-    right:0;
-    opacity: 0.2;
-}
-
-
 
 /* End Section */
 
