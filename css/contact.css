@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: rgba(73, 70, 70, 0.253);
+    background-color: #FFF;
     font-size: 18px;
     line-height: 1.6rem;
     font-family: 'PlayfairDisplay', 'Alegreya', 'Helvetica', sans-serif;
@@ -176,7 +176,7 @@ body {
     border-top:none;
     background-color: #fff;
     padding:20px 0 0 20px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -231,12 +231,15 @@ input[type=name], input[type=email] {
     font-size: 90%;
     font-family: 'PlayfairDisplay', sans-serif;
     border:none;
-    border-bottom: 1px solid #e4e4e4;
+    border-bottom: 1px solid #d6d5d5;
     margin-left: 5px;
     border-radius: 3px;
     transition: width 5s ease-in-out;
     outline: none;
-    opacity: 0.4;
+}
+
+input::placeholder {
+   opacity: 0.4;
 }
 
 .email1 {
@@ -340,3 +343,7 @@ textarea {
     margin-right: 25px;
 }
 
+.footer-info a i:hover {
+    color:#5c5252ea;
+    transition: 1s;
+}

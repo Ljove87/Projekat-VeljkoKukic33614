@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/dropdownbtn.js"></script>
     <title>Projekat/Početna</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
       <div class="wrapper-all">
       <div class="container">
         <nav class="nav-bar">
-            <div class='logo'><img src='images/logo.png'></div>
+                <div class='logo'><a href="index.html"><img src='images/logo.png'></a></div>
                 <ul>
                     <a href="index.html" class="current"><li>Početna</li></a>
                     <span>~</span><a href="aboutme.html"><li>O meni</li></a>
@@ -112,8 +113,8 @@
 
 <section id="section-end">
    <div class="container">
-         <h1>The Jibarito Sandwitch</h1>
-         <p class="s-title">THE BEST SANDWITCH YOU`VE EVER TASTED!</p>
+         <h1>Jibarito sendvič</h1>
+         <p class="s-title">NAJBOLJI SENDVIČ KOJI STE IKADA PROBALI!</p>
       <div class="aside"> 
        <div class="row">
                 <img src="images/endsection/first.jpg" alt="">
@@ -134,12 +135,14 @@
     <aside class="right-info1">
         <img src="images/endsection/sandwitch.jpg"><br>
         <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">FULL RECIPE</button>
+                <button onclick="myFunction()" class="dropbtn">RECEPT</button>
                   <div id="myDropdown" class="dropdown-content">
                     <p>5 eggs</p>
                     <p>0.2l milk</p>
                     <p>100g bacon</p>
                     <p>200g flour</p>
+                    <p>100g bacon</p>
+                    <p>Kuvati na laganoj vatri i ostaviti da se krcka 5 minuta</p>
                   </div>
         </div>
     </aside>
@@ -163,16 +166,32 @@
     
     </div>
 </section>
-<!-- End of last section  footer begins-->
-<footer>
-    <p>Dobrodošli u moj svet kulinarstva &copy;<b><span>Cane</span></b></p>
-</footer>
-<!--SCRIPT-->
-<script src="js/dropdownbtn.js"></script>
-<script>
-        $(document).ready(function(){
-        $(".box2").animate({left:200, opacity:"show"}, 1500);
-    });
-</script>
+<!-- End of last section -->
+
+<!-- Footer-->
+<footer id="footer">
+        <div class="container">
+            <div class="footer-info">
+                <h4>Informacije</h4>
+                <p>Moje ime je Stanko. Kolege me zovu Cane. 12 godina se bavim kulinarstvom. Prosao sam dosta toga i naucio od drugih majstora kuvanja. Moj cilj je da prenesem znanje drugim kuvarima za ovu, evo vise od deceniju rada, u ovoj bransi.</p>
+            </div>
+            <div class="footer-info">
+                <h4>Adresa</h4>
+                <p>Milete Jakšića 2</p>
+                <br>
+                <h4>Kontakt telefon</h4>
+                <p>064/3201548</p>
+                <br>
+            </div>
+            <div class="footer-info">
+                   <h4>Kontaktirajte me preko</h4>
+                   <a href="https://www.facebook.com/stanko.kukic"><i class="fab fa-facebook"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="skype:stanko_kukic?chat"><i class="fab fa-skype"></i></a>
+                   <a href="viber://chat?number=064-3201548"><i class="fab fa-viber"></i></a>
+            </div>
+        </div>
+    </footer>
+<!-- Footer Ends-->
 </body>
 </html>

@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: rgba(73, 70, 70, 0.253);
+    background-color: #FFF;
     font-size: 18px;
     line-height: 1.6rem;
     font-family: 'PlayfairDisplay', 'Alegreya', 'Helvetica', sans-serif;
@@ -74,6 +74,7 @@ body {
     background-color: #c0c0c086;
     top:0;
     position: fixed;
+    z-index: 1;
     
 }
 
@@ -358,6 +359,7 @@ blockquote:before {
     margin:0 auto;
     background: #f4f4f4;
     position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #section-end h1 {
@@ -470,6 +472,7 @@ blockquote:before {
 .dropbtn:hover {
     cursor:pointer;
     background-color: rgba(164, 125, 94, 0.295);
+    transition: 0.5s;
 }
 
 .dropdown {
@@ -479,36 +482,62 @@ blockquote:before {
 
 .dropdown-content {
     display: none;
-    position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
+    max-width: 500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 2;
+}
+
+.dropdown-content p {
+    display: inline-block;
+    padding-right: 10px;
+
 }
 .show {
     display: block;
 }
 
+/* Footer styling */
 
-
-
-/* Footer */
-footer {
+#footer {
     margin: 0 auto;
     max-width: 1440px;
     width:100%;
     text-align: center;
-    background-color: #333;
-    padding: 30px;
-}
-footer p {
-    color: #FFF;
-}
-footer span {
-    font-family: 'Tangerine',sans-serif;
-    font-size: 250%;
+    background-color: #00000077;
+    height: 300px;
+    padding: 80px;
 }
 
+.footer-info {
+    float:left;
+    width: 30%;
+
+   
+}
+
+.footer-info h4 {
+    font-family: 'Alegreya', sans-serif;
+    color: #FFF;
+}
+
+.footer-info p{
+    color: #FFF;
+    font-size: 80%;
+    padding-top:5px;
+    letter-spacing: 1px;
+}
+
+.footer-info a i {
+    padding-top: 20px;
+    margin-right: 25px;
+}
+
+.footer-info a i:hover {
+    color:#5c5252ea;
+    transition: 1s;
+}
 
 /* RESPONSIVE for TABLET */
 
