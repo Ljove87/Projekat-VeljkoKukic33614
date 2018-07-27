@@ -296,7 +296,7 @@ blockquote:before {
 #boxes2 {
     width: 100%;
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
     height: 800px;
     background-image: url('../images/js-slider/flouregg.jpg');
     background-size: cover;
@@ -326,9 +326,10 @@ blockquote:before {
     font-family: 'AlegreyaBold', sans-serif;
     font-weight: 300;
     color:rgba(164, 125, 94, 0.8);
+    line-height: 1.1em;
 }
 #boxes2 .box2 p {
-    padding: 25px 25px 0 25px;
+    padding: 15px 25px 0 25px;
     text-align: center;
     font-size: 80%;
 
@@ -506,4 +507,20 @@ footer p {
 footer span {
     font-family: 'Tangerine',sans-serif;
     font-size: 250%;
+}
+
+
+/* RESPONSIVE for TABLET */
+
+@media only screen and (max-width: 1280px) {
+    .inside-wrapper h1 {
+        padding: 0px;
+        font-size: 650%;
+    }
+    .inside-wrapper p {
+        font-size: 150%;
+    }
+    .breadtag img {
+        margin-top: 130px;
+    }
 }
