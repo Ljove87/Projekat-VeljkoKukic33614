@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'Alegreya';
+    src: url(../fonts/Alegreya-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: 'AlegreyaBold';
+    src: url(../fonts/Alegreya-Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url(../fonts/PlayfairDisplay-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Scriptina';
+    src: url(../fonts/SCRIPTIN.ttf) format('truetype');
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(73, 70, 70, 0.253);
+    font-size: 18px;
+    line-height: 1.6rem;
+    font-family: 'PlayfairDisplay', 'Alegreya', 'Helvetica', sans-serif;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-wrapper{
+    width: 100%;
+    max-width: 1440px;
+    height: 800px;
+    margin:0 auto;
+    background: url(../images/Contact/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(34, 34, 34, 0.767)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Stilizovanje navigacionog bara - logo, nab-bar, social icons*/
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 120px;
+    height: 60px;
+}
+
+.socials {
+    margin-top: -30px;
+
+}
+.fab {
+    float:right;
+    padding-right: 15px;
+    font-size: 1.6em;
+    color: white;
+}
+
+.wrapper-all {
+    width: 100%;
+    max-width: 1440px;
+    height: 60px;
+    background-color: #c0c0c086;
+    top:0;
+    position: fixed;
+    
+}
+
+.nav-bar {
+   text-align: center;
+
+}
+
+.nav-bar span {
+    padding-right: 80px;
+    color:#FFF;
+}
+
+.nav-bar ul {
+	list-style: none;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+	font-size: 30px;
+    margin-top: 20px;
+    padding-right: 100px;
+    font-family: 'Alegreya', sans-serif;
+}
+
+.nav-bar ul a {
+    color: #FFF;
+}
+
+.nav-bar ul li:hover {
+    color: #5c5252c5;
+}
+
+.nav-bar .current {
+    color: #5c5252ea;
+}
+
+
+/* Headline, paragraph, separator, button */
+.inside-wrapper {
+    text-align:center;
+    width: 80%;
+    margin:0 auto;
+    padding-top:250px;
+    
+}
+.separator {
+    height: 2px;
+    max-width: 550px;
+    background: lightgray;
+    width: 100%;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+.inside-wrapper h1 {
+    font-family: 'Tangerine', sans-serif;
+    font-size: 15rem;
+    color: rgba(255, 255, 255, 0.863);
+    font-weight: 100;
+    padding: 100px;
+    text-shadow: 2px 3px #f3f3f334;
+
+}
+
+.inside-wrapper p {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-weight: 100;
+    padding: 60px;
+    line-height: 3rem;
+}
+.inside-wrapper .btn {
+    color: #fff;
+    background-color: #5c525281;
+    width: 120px;
+    border:none;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Alegreya Bold', sans-serif;
+    outline: none;
+}
+
+.inside-wrapper .btn:hover {
+    background-color: #ffffff4d;
+    color: #fcfcfcef;
+    cursor: pointer;
+}
+
+
+/* Contact Form Styleing */
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 850px;
+    border-top:none;
+    background-color: #fff;
+    padding:20px 0 0 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.col1 {
+    margin:0 auto;
+    width: 90%;
+}
+
+.col1 h1 {
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 50px;
+    color:#5c5252c5;
+}
+
+.col1 p{
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color:#5c5252c5;
+}
+
+form {
+    height: 550px;
+}
+
+.box-2 {
+    width: 50%;
+    float:left;
+    padding: 80px;
+
+}
+
+label {
+    font-size: 100%;
+    font-family: 'AlegreyaBold', sans-serif;
+    float: left;
+    clear: left;
+    text-align: left;
+    padding:5px;
+    margin-top:5px;
+    color: rgba(164, 125, 94, 0.8);
+    margin-left: 5px;
+}
+
+input[type=name], input[type=email] {
+    padding:20px;
+    float:left;
+    width: 100%;
+    font-size: 90%;
+    font-family: 'PlayfairDisplay', sans-serif;
+    border:none;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 5px;
+    border-radius: 3px;
+    transition: width 5s ease-in-out;
+    outline: none;
+    opacity: 0.4;
+}
+
+.email1 {
+    padding-top: 100px;
+}
+
+hr {
+    border: 1px solid #e6e6e6c5;
+    margin-top : 15px;
+    width: 150px;
+    margin-left: 5px;
+}
+
+input[type=name]:focus {
+    border: none;
+    border-bottom: 1px solid rgba(164, 125, 94, 0.8);
+}
+
+input[type=email]:focus {
+    border: none;
+    border-bottom: 1px solid rgba(164, 125, 94, 0.8);
+}
+
+.divbtn {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.button1 {
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: rgba(164, 125, 94, 0.8);
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'PlayfairDisplay', sans-serif;
+    border-radius: 30px;
+}
+
+.button1:hover{
+    cursor:pointer;
+    background-color: rgba(164, 125, 94, 0.8);
+    color: #FFF;
+}
+
+.divarea {
+    margin-left: 8px;
+    margin-top: 100px;
+}
+
+textarea {
+    padding: 5px;
+    text-decoration:none;
+}
+
+#map {
+    height: 585px;
+    width: 500px;
+    float: right;
+    background: url(../images/Contact/mypic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.5), 1px 6px 20px 8px rgba(164, 125, 94, 0.49);
+    border: 5px solid #ebe8e8c5;
+    border-bottom-right-radius: 15%;
+}
+
+/* Footer styling */
+
+#footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    width:100%;
+    text-align: center;
+    background-color: #00000077;
+    height: 300px;
+    padding: 80px;
+}
+
+.footer-info {
+    float:left;
+    width: 30%;
+
+   
+}
+
+.footer-info h4 {
+    font-family: 'Alegreya', sans-serif;
+    color: #FFF;
+}
+
+.footer-info p{
+    color: #FFF;
+    font-size: 80%;
+    padding-top:5px;
+    letter-spacing: 1px;
+}
+
+.footer-info a i {
+    padding-top: 20px;
+    margin-right: 25px;
+}
+
