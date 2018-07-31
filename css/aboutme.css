@@ -329,23 +329,29 @@ body {
 }
 
 /* Slider */
-.slick-slide {
-    margin: 10px 100px 0 50px;
-}
+        .slick-slide {
+            margin: 10px 100px 0 80px;
+        }
+        .slider {
+            padding-bottom: 40px;
+        }
 
 /* Footer */
 
         #footer {
-            height: 800px;
+            height: 600px;
+            padding: 40px;
         }
         .footer-info {
             float:none;
             width: 100%;
         }
         .footer-info a i {
-            padding-top: 20px;
-            margin-right: 25px;
+            padding: 10px 0 0 0;
+            margin-right: 35px;
         }
-
+        .container {
+            width: 90%;
+        }
 }
 

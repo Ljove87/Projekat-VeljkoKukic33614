@@ -415,7 +415,7 @@ textarea {
 
     /* contact section */
     .wrapper {
-        height: 1300px;
+        height: 1400px;
     }
     .inside-wrapper h1 {
         font-size: 8rem;
@@ -427,7 +427,7 @@ textarea {
         width: 100%;
         height: 500px;
         background: cover;
-        margin-top: 35px;
+        margin-top: 55px;
     }
 
     .box-2 {
@@ -446,6 +446,23 @@ textarea {
         margin-top: 30px;
     }
 
+    /* Footer */
+
+#footer {
+    height: 600px;
+    padding: 40px;
+}
+.footer-info {
+    float:none;
+    width: 100%;
+}
+.footer-info a i {
+    margin-right: 35px;
+    padding: 10px 0 0 0;
+}
+.container {
+    width: 90%;
+}
 
 
 

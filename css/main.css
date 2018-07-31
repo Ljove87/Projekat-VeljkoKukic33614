@@ -326,14 +326,14 @@ blockquote:before {
 
 #boxes2 .box2 h3 {
     font-size: 180%;
-    padding-top: 40px;
+    padding-top: 10px;
     font-family: 'AlegreyaBold', sans-serif;
     font-weight: 300;
     color:rgba(164, 125, 94, 0.8);
     line-height: 1.1em;
 }
 #boxes2 .box2 p {
-    padding: 15px 25px 0 25px;
+    padding: 15px 15px 0 15px;
     text-align: center;
     font-size: 80%;
 
@@ -781,15 +781,16 @@ blockquote:after {
 
 /* Footer */
 #footer {
-    height: 700px;
+    height: 600px;
+    padding: 40px;
 }
 .footer-info {
     float:none;
     width: 100%;
 }
 .footer-info a i {
-    padding-top: 20px;
-    margin-right: 35px;
+    padding: 10px 0 0 0;
+    margin-right: 45px;
 }
 
 
