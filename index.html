@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <script src="js/dropdownbtn.js"></script>
+    <script src="js/togglenav.js"></script>
     <title>Projekat/Početna</title>
 </head>
 <body>
@@ -16,16 +20,18 @@
       <div class="container">
         <nav class="nav-bar">
                 <div class='logo'><a href="index.html"><img src='images/logo.png'></a></div>
-                <ul>
+                <ul class="active">
                     <a href="index.html" class="current"><li>Početna</li></a>
                     <span>~</span><a href="aboutme.html"><li>O meni</li></a>
                     <span>~</span><a href="contact.html"><li>Kontakt</li></a>
                 </ul>
+                
                 <div class="socials">
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
+                <a class="toggle-nav" href="#">&#9776;</a>
         </nav>
      </div>
     </div>  
@@ -94,17 +100,17 @@
           <h1>Our Services</h1>
           <div class='box2 fade-right'>
             <img src='images/3box/icon1.png' alt=''>
-            <h3>Food prep</h3>
+            <h3>Priprema hrane</h3>
             <p>Sometimes meal preparation involves preparing meals ahead of time for a short or extended period of time.[1] This practice may occur among people who desire to lose weight or maintain a healthy lifestyle. Advance preparation can.</p>
           </div>
           <div class='box2 fade-right'>
             <img src='images/3box/icon2.png' alt=''>
-            <h3>How to become Chef</h3>
+            <h3>Kako postati Šef</h3>
             <p>“Kitchens are loud and dangerous places. People get cut, burned, crushed, and worse.  Most days have hectic phases where a keen eye on the food and your surroundings will make the difference between success and failure or injury.” </p>
           </div>
           <div class='box2 fade-right'>
             <img src='images/3box/icon3.png' alt=''>
-            <h3>My knife is MINE!</h3>
+            <h3>Kvalitet jela</h3>
             <p>“Almost worse than touching my mise is touching my knife. It's mine, it's what separates me from savages, foodies, and the diners outside. It's a precision tool, it's my precision tool, and it defines me as a cook or chef. Don't touch it. Ever.”</p>
          </div>
         </div>
@@ -137,11 +143,12 @@
         <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn">RECEPT</button>
                   <div id="myDropdown" class="dropdown-content">
-                    <p>5 eggs</p>
-                    <p>0.2l milk</p>
-                    <p>100g bacon</p>
-                    <p>200g flour</p>
-                    <p>100g bacon</p>
+                    <p>5 jaja</p>
+                    <p>0.2l mleka</p>
+                    <p>100g slanine</p>
+                    <p>200g brasna</p>
+                    <p>10g putera</p>
+                    <p>50g masti</p>
                     <p>Kuvati na laganoj vatri i ostaviti da se krcka 5 minuta</p>
                   </div>
         </div>
@@ -159,7 +166,7 @@
        </div>
        <div class="row2">
           <h4>SPREMNO ZA</h4>
-          <h3>40</h3>
+          <h3>42</h3>
           <p>minuta</p>
        </div>
     </aside>
