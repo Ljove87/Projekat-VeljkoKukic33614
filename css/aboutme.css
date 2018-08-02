@@ -237,7 +237,7 @@ body {
 
 .footer-info {
     float:left;
-    width: 30%;
+    width: 33%;
 
    
 }
@@ -264,7 +264,26 @@ body {
     transition: 1s;
 }
 
+@media only screen and (max-width: 1200px) {
+    .nav-bar ul li {
+        font-size: 25px;
+        padding-right: 30px;
+    }
+    .nav-bar span {
+        padding-right: 20px;
+    } 
+    #footer {
+        height: 500px;
 
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .socials {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 680px) {
     .nav-wrapper {
