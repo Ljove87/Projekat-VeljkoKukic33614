@@ -4,7 +4,7 @@ $(document).ready(function(){
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-      arrows: false,
+      arrows: true,
       dots: false,
       pauseOnHover: false,
       responsive: [{
@@ -15,6 +15,7 @@ $(document).ready(function(){
       }, {
         breakpoint: 520,
         settings: {
+          arrows: false,
           slidesToShow: 1
         }
       }]

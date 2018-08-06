@@ -74,7 +74,7 @@ body {
     width: 100%;
     max-width: 1440px;
     height: 60px;
-    background-color: #c0c0c086;
+    background-color: #c0c0c0fb;
     top:0;
     position: fixed;
     z-index: 1;
@@ -104,15 +104,15 @@ body {
 }
 
 .nav-bar ul a {
-    color: #FFF;
-}
-
-.nav-bar ul li:hover {
     color: #5c5252c5;
 }
 
+.nav-bar ul li:hover {
+    color: #FFF;
+}
+
 .nav-bar .current {
-    color: #5c5252ea;
+    color: #FFF;
 }
 
 
@@ -134,7 +134,7 @@ body {
 
 .inside-wrapper h1 {
     font-family: 'Tangerine', sans-serif;
-    font-size: 10rem;
+    font-size: 8rem;
     color: rgba(255, 255, 255, 0.863);
     font-weight: 100;
     padding: 20px;
@@ -166,17 +166,6 @@ body {
     cursor: pointer;
 }
 
-/* Bread between 2 containers */
-
-.breadtag {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-}
-.breadtag img {
-    margin-top: 100px;
-}
-
 /* Section-First CSS*/
 
 #boxes {
@@ -196,7 +185,7 @@ body {
 }
 
 #boxes .box h4 {
-    font-size: 100%;
+    font-size: 140%;
     padding-top: 20px;
     font-family: 'Alegreya', sans-serif;
     font-weight: 500;
@@ -226,30 +215,23 @@ body {
 }
 
 #boxes .box .cane{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+    margin-top: 40px;
 }
 
-.hrs {
-    width: 25%;
-    display: inline-block;
-}
-
-.hrs hr {
-    margin-top: 80px;
-}
 
 /* Blockquote syling */
 
 blockquote {
     font-family:'Scriptina', sans-serif; 
-    font-size: 25px;
+    font-size: 30px;
     font-style: italic;
-    width: 500px;
-    margin-left: 30px;
-    padding: 3em 40px;
+    width: 0 auto;
+    padding-top: 15px;
     line-height: 1.45;
+    letter-spacing: 1px;
     position: relative;
     color: #66614c;
     }
@@ -258,18 +240,18 @@ blockquote:before {
     content: "\201C";
     font-size: 80px;
     position: absolute;
-    top: -20px;
+    top: -30px;
     color: #c5b8b8;
-    padding-top: 80px;
-    margin-left: 400px;
+    padding-top: 50px;
+    margin-left: 460px;
  }
  blockquote:after {
     display: block;
     content: "\201C";
     font-size: 80px;
     position: absolute;
-    top: -20px;
-    margin-left: -15px;
+    top: -80px;
+    margin-left: 25px;
     color: #c5b8b8;
     padding-top: 50px;
  }
@@ -281,16 +263,15 @@ blockquote:before {
 }
 
  .column {
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
+    float: right;
+     
 }
   
 .column img {
     background-color: #f1f1f1;
-    width: 280px;
-    height: 280px;
-    padding: 5px;
+    width: 250px;
+    height: 250px;
+    margin-right: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid rgba(121, 121, 121, 0.432);
 }
@@ -329,7 +310,7 @@ blockquote:before {
     padding-top: 10px;
     font-family: 'AlegreyaBold', sans-serif;
     font-weight: 300;
-    color:rgba(164, 125, 94, 0.8);
+    color: #333;
     line-height: 1.1em;
 }
 #boxes2 .box2 p {
@@ -340,7 +321,7 @@ blockquote:before {
 }
 
 #boxes2 .box2 img {
-    width:40%;
+    width:0 auto;
     height: 100px;
     border-radius: 50%;
     background: rgba(255, 245, 245, 0.562);
@@ -440,11 +421,7 @@ blockquote:before {
     padding-top: 30px;
     line-height: 2em;
 }
-.right-info2 .row2:nth-child(3) {
-    background-image: url(../images/endsection/vektorsm.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 .right-info2 .row2 h4 {
     color: rgba(164, 125, 94, 0.8);
@@ -509,13 +486,14 @@ blockquote:before {
     width:100%;
     text-align: center;
     background-color: #00000077;
-    height: 300px;
-    padding: 80px;
+    height: 400px;
+    padding-top: 80px;
 }
 
 .footer-info {
     float:left;
     width: 33%;
+    margin-bottom: 50px;
 
    
 }
@@ -534,12 +512,12 @@ blockquote:before {
 
 .footer-info a i {
     padding-top: 20px;
-    margin-right: 25px;
+    margin-right: 35px;
 }
 
 .footer-info a i:hover {
     color:#5c5252ea;
-    transition: 1s;
+    transition: 0.2s;
 }
 
 /* RESPONSIVE for TABLET */
@@ -552,9 +530,7 @@ blockquote:before {
     .inside-wrapper p {
         font-size: 150%;
     }
-    .breadtag img {
-        margin-top: 130px;
-    }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -585,8 +561,8 @@ blockquote:before {
 
 @media only screen and (max-width: 1024px) {
     .column img {
-        width: 200px;
-        height: 200px;
+        width: 130px;
+        height: 130px;
     }
     .boxwrap {
         padding: 50px;
@@ -612,10 +588,6 @@ blockquote:before {
 }
 
 @media only screen and (max-width: 680px) {
-    .logo {
-        padding-left: 36px;
-    }
-    
     .nav-bar {
         position:relative;
         display:inline-block;
@@ -647,7 +619,7 @@ blockquote:before {
     }
 
     .nav-bar span {
-        padding-left: 50px;
+        padding-left: 35px;
     }
 
   
@@ -671,6 +643,8 @@ blockquote:before {
 
 .nav-wrapper{
         background: url(../images/wrapper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 .inside-wrapper h1 {
         font-size: 400%;
@@ -690,14 +664,6 @@ blockquote:before {
         width: 100%;
         margin: 0 auto;
    }
-.breadtag {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto;
- }
-.breadtag img {
-       margin-top: 20px;
-}
 
 /* second section*/
 #boxes {
@@ -805,7 +771,7 @@ blockquote:after {
 
 /* Footer */
 #footer {
-    height: 600px;
+    height: 650px;
     padding: 40px;
 }
 .footer-info {
@@ -814,7 +780,10 @@ blockquote:after {
 }
 .footer-info a i {
     padding: 10px 0 0 0;
-    margin-right: 45px;
+    margin-right: 35px;
+}
+.container {
+    width: 90%;
 }
 
 

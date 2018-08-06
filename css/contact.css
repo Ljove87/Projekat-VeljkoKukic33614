@@ -76,7 +76,7 @@ body {
     width: 100%;
     max-width: 1440px;
     height: 60px;
-    background-color: #c0c0c086;
+    background-color: #c0c0c0fb;
     top:0;
     position: fixed;
     
@@ -105,27 +105,27 @@ body {
 }
 
 .nav-bar ul a {
-    color: #FFF;
-}
-
-.nav-bar ul li:hover {
     color: #5c5252c5;
 }
 
+.nav-bar ul li:hover {
+    color: #FFF;
+}
+
 .nav-bar .current {
-    color: #5c5252ea;
+    color: #FFF;
 }
 
 
 /* Headline, paragraph, separator, button */
-.inside-wrapper {
+.inside-wrapper1 {
     text-align:center;
     width: 80%;
     margin:0 auto;
     padding-top:250px;
     
 }
-.separator {
+.separator1 {
     height: 2px;
     max-width: 550px;
     background: lightgray;
@@ -134,7 +134,7 @@ body {
     margin-top: 20px;
 }
 
-.inside-wrapper h1 {
+.inside-wrapper1 h1 {
     font-family: 'Tangerine', sans-serif;
     font-size: 15rem;
     color: rgba(255, 255, 255, 0.863);
@@ -144,30 +144,6 @@ body {
 
 }
 
-.inside-wrapper p {
-    color: #FFF;
-    font-size: 2.5rem;
-    font-family: 'PlayfairDisplay', sans-serif;
-    font-weight: 100;
-    padding: 60px;
-    line-height: 3rem;
-}
-.inside-wrapper .btn {
-    color: #fff;
-    background-color: #5c525281;
-    width: 120px;
-    border:none;
-    height: 50px;
-    font-size: 20px;
-    font-family: 'Alegreya Bold', sans-serif;
-    outline: none;
-}
-
-.inside-wrapper .btn:hover {
-    background-color: #ffffff4d;
-    color: #fcfcfcef;
-    cursor: pointer;
-}
 
 
 /* Contact Form Styling */
@@ -186,7 +162,7 @@ body {
 }
 .col1 {
     margin:0 auto;
-    width: 90%;
+    width: 50%;
 }
 
 .col1 h1 {
@@ -210,8 +186,7 @@ form {
 }
 
 .box-2 {
-    width: 50%;
-    float:left;
+    width: 100%;
     padding: 80px;
 
 }
@@ -250,12 +225,6 @@ input::placeholder {
     padding-top: 100px;
 }
 
-hr {
-    border: 1px solid #e6e6e6c5;
-    margin-top : 15px;
-    width: 150px;
-    margin-left: 5px;
-}
 
 input[type=name]:focus {
     border: none;
@@ -268,8 +237,8 @@ input[type=email]:focus {
 }
 
 .divbtn {
-    margin-left: 140px;
     margin-top: 30px;
+    margin-left: 5px;
 }
 
 .button1 {
@@ -280,7 +249,8 @@ input[type=email]:focus {
     font-weight: bold;
     font-size: 100%;
     font-family: 'PlayfairDisplay', sans-serif;
-    border-radius: 30px;
+    border-radius: 2px;
+    border: 1px solid rgba(164, 125, 94, 0.8);
 }
 
 .button1:hover{
@@ -296,7 +266,13 @@ input[type=email]:focus {
 
 textarea {
     padding: 5px;
-    text-decoration:none;
+    width: 300px;
+	height: 120px;
+	border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 80%;
+
 }
 
 #map {
@@ -319,13 +295,14 @@ textarea {
     width:100%;
     text-align: center;
     background-color: #00000077;
-    height: 300px;
-    padding: 80px;
+    height: 400px;
+    padding-top: 80px;
 }
 
 .footer-info {
     float:left;
     width: 33%;
+    margin-bottom: 50px;
 
    
 }
@@ -344,12 +321,12 @@ textarea {
 
 .footer-info a i {
     padding-top: 20px;
-    margin-right: 25px;
+    margin-right: 35px;
 }
 
 .footer-info a i:hover {
     color:#5c5252ea;
-    transition: 1s;
+    transition: 0.2s;
 }
 
 
@@ -377,10 +354,10 @@ textarea {
     }
 
      .wrapper {
-         height: 1400px;
+         height: 1200px;
      }
      .button1 {
-         width: 100%;
+         width: 30%;
      }
      .divbtn {
          margin:0;
@@ -463,25 +440,19 @@ textarea {
 
     /* contact section */
     .wrapper {
-        height: 1400px;
+        height: 800px;
     }
-    .inside-wrapper h1 {
-        font-size: 8rem;
+    
+    .inside-wrapper1 h1 {
+        font-size: 3rem;
         padding: 50px;
-    }
-
-    #map {
-        float: none;
-        width: 100%;
-        height: 500px;
-        background: cover;
-        margin-top: 55px;
     }
 
     .box-2 {
         width: 100%;
         float: none;
         padding: 20px;
+        margin-top: 30px;
     }
  
     .col1 {
@@ -495,7 +466,7 @@ textarea {
     /* Footer */
 
     #footer {
-        height: 600px;
+        height: 650px;
         padding: 40px;
     }
     .footer-info {
@@ -516,10 +487,10 @@ textarea {
         background: url(../images/Responsive/responsivecontact.jpg);
         height: 320px;
     }
-    .inside-wrapper{
+    .inside-wrapper1{
         padding-top: 120px;
     }
-    .inside-wrapper h1 {
+    .inside-wrapper1 h1 {
         font-size: 80px;
         padding: 20px;
         margin:0;
