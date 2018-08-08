@@ -4,7 +4,8 @@ $(document).ready(function(){
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-      arrows: true,
+      prevArrow: $('.prev'),
+      nextArrow: $('.next'),
       dots: false,
       pauseOnHover: false,
       responsive: [{
