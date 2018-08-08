@@ -65,6 +65,12 @@ body {
     margin-top: -30px;
 
 }
+
+.socials i:hover {
+    transition: 0.2s;
+    color: #5c5252ea;
+}
+
 .fab {
     float:right;
     padding-right: 15px;
@@ -128,7 +134,7 @@ body {
 .separator1 {
     height: 2px;
     max-width: 550px;
-    background: rgb(0, 0, 0);
+    background: #FFF;
     width: 100%;
     margin:0 auto;
     margin-top: 20px;
@@ -433,11 +439,15 @@ textarea {
 
     /* contact section */
     .wrapper {
-        height: 800px;
+        height: 850px;
+    }
+
+    .separator1 {
+        display: none;
     }
     
     .inside-wrapper1 h1 {
-        font-size: 8rem;
+        font-size: 9rem;
         padding: 50px;
     }
 
@@ -450,7 +460,13 @@ textarea {
  
     .col1 {
         width: 100%;
+        padding: 15px;
     }
+
+    .col1 h1 {
+         line-height: 1.2em;
+    }
+
     .divbtn {
         margin: 0;
         margin-top: 30px;
