@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +19,11 @@
       <div class="wrapper-all">
       <div class="container">
         <nav class="nav-bar">
-                <div class='logo'><a href="index.html"><img src='images/logo.png'></a></div>
+                <div class='logo'><a href="index.html"><img src='images/logo.png' alt=""></a></div>
                 <ul class="active">
-                    <a href="index.html" class="current"><li>Početna</li></a>
-                    <span>~</span><a href="aboutme.html"><li>O meni</li></a>
-                    <span>~</span><a href="contact.html"><li>Kontakt</li></a>
+                    <li><a href="index.html" class="current">Početna</a></li>
+                    <li>~</li><li><a href="aboutme.html">O meni</a></li>
+                    <li>~</li><li><a href="contact.html">Kontakt</a></li>
                 </ul>
                 
                 <div class="socials">
@@ -33,7 +33,7 @@
                 <a class="toggle-nav" href="#">&#9776;</a>
         </nav>
      </div>
-    </div>  
+    </div> 
     <!-- Headlines inside wrapper picture, -->
         <div class="container">
                 <div class="inside-wrapper">
@@ -50,9 +50,9 @@
             <div class='container'>
                <div class='box'>
                     <h1>Umetnost kuvanja</h1>
-                    <h4>Pravimo ukusna sećanja</h3>
+                    <h2>Pravimo ukusna sećanja</h2>
                     <p>Ponekad priprema obroka obuhvata pripremu obroka unapred, za kratki ili duži vremenski period. Ova praksa se može pojaviti među ljudima koji žele da izgube težinu ili žele održavanje zdravog načina života. Pripremnje unapred može da posluži da standardizuje porcije hrane.</p>
-                    <h2>Šef Kuhinje</h2> 
+                    <h3>Šef Kuhinje</h3> 
                        <div class="hrs">
                             <img class="cane" src="images/stanko.jpg" alt="">  
                        </div>     
@@ -77,8 +77,6 @@
                     </div>
                 </div>
               </div>
-             </div>
-            </div>
           </section>
         <!-- End of section boxes with 4 images-->
 
@@ -128,34 +126,36 @@
         </div>
     </div>
     <aside class="right-info1">
-        <img src="images/endsection/sandwitch.jpg"><br>
+        <img class="jib-img" src="images/endsection/sandwitch.jpg" alt=""><br>
         <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">RECEPT</button>
+                <button id="btn" class="dropbtn">RECEPT</button>
                   <div id="myDropdown" class="dropdown-content">
-                    <p>-5 jaja</p>
-                    <p>-0.2l mleka</p>
-                    <p>-100g slanine</p>
-                    <p>-200g brasna</p>
-                    <p>-10g putera</p>
-                    <p>-50g sira</p>
+                    <ul>
+                    <li>-5 jaja</li>
+                    <li>-0.2l mleka</li>
+                    <li>-100g slanine</li>
+                    <li>-200g brasna</li>
+                    <li>-10g putera</li>
+                    <li>-50g sira</li>
                     <p class="recipeInfo">Kuvati na laganoj vatri i ostaviti da se krcka 5 minuta</p>
+                    </ul>
                   </div>
         </div>
     </aside>
     <aside class="right-info2">
        <div class="row2">
-         <h4>PRIPREMA</h4>
-         <h3>15</h3>
+         <h2>PRIPREMA</h2>
+         <p>15</p>
          <p>minuta</p>
        </div>
        <div class="row2">
-          <h4>KUVANJE</h4>
-          <h3>25</h3>
+          <h2>KUVANJE</h2>
+          <p>25</p>
           <p>minuta</p>
        </div>
        <div class="row2">
-          <h4>SPREMNO ZA</h4>
-          <h3>42</h3>
+          <h2>SPREMNO ZA</h2>
+          <p>42</p>
           <p>minuta</p>
        </div>
     </aside>
@@ -168,19 +168,19 @@
 <footer id="footer">
         <div class="container">
             <div class="footer-info">
-                <h4>Informacije</h4>
+                <h2>Informacije</h2>
                 <p>Moje ime je Stanko. Kolege me zovu Cane. 12 godina se bavim kulinarstvom. Prošao sam dosta toga i naučio od drugih majstora kuvanja. Moj cilj je da prenesem znanje drugim kuvarima za ovu, evo više od deceniju rada, u ovoj branši.</p>
             </div>
             <div class="footer-info">
-                <h4>Adresa</h4>
+                <h2>Adresa</h2>
                 <p>Milete Jakšića 2</p>
                 <br>
-                <h4>Kontakt telefon</h4>
+                <h2>Kontakt telefon</h2>
                 <p>064/3201548</p>
                 <br>
             </div>
             <div class="footer-info">
-                   <h4>Kontaktirajte me preko</h4>
+                   <h2>Kontaktirajte me preko</h2>
                    <a href="https://www.facebook.com/stanko.kukic"><i class="fab fa-facebook"></i></a>
                    <a href="#"><i class="fab fa-instagram"></i></a>
                    <a href="skype:stanko_kukic?chat"><i class="fab fa-skype"></i></a>
