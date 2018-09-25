@@ -570,7 +570,14 @@ blockquote:before {
     #boxes2 .box2 {
         margin-left: 10px;
         width: 32%;
-  
+    }
+
+    blockquote:before {
+        margin-left: 390px;
+    }
+    blockquote:after {
+        margin-left: -20px;
+        margin-top: -15px;
     }
 
     /* Footer */
@@ -628,7 +635,6 @@ blockquote:before {
       
     }
   
-}
 
 @media only screen and (max-width: 768px) {
     #boxes {
@@ -637,10 +643,17 @@ blockquote:before {
     #boxes2 {
         height: 1400px;
     }
+
+    #boxes .boxie {
+        margin: 0 auto;
+        width: 15%;
+        
+    }
     #boxes2 .box2 {
         width: 100%;
         height: 350px;
     }
+
     #section-end .right-info2{
         margin-top: 20px;
     }
@@ -882,6 +895,7 @@ blockquote:after {
         float:right;
        
     }
+
     #section-end .container {
        width: 80%;
     }
@@ -1018,10 +1032,9 @@ blockquote:after {
     padding-bottom: 80px;
 }
 
-
-#about-me span {
-    color: #FFF;
+#about-me p::first-letter {
     font-size: 200%;
+    color:  gray;
 }
 
 /* Companies slider */
@@ -1212,6 +1225,10 @@ blockquote:after {
 }
 
 @media only screen and (max-width: 1024px) {
+    
+    .slick-slide {
+        margin-left: 30px;
+    }
     .footer-info a i {
         padding: 0;
     }
@@ -1701,9 +1718,14 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
+    
+    
     .footer-info i {
         margin-left: -10px;
     }
+     .divbtn {
+    margin-left: -3px;
+     }
 }
 
 
@@ -1850,6 +1872,7 @@ textarea {
         width: 100%;
         font-size: 70%;
     }
+
     .button1 {
         font-size: 70%;
         width: 100px;
