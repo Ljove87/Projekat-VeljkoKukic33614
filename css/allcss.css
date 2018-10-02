@@ -57,8 +57,7 @@ body {
 }
 
 .logo img {
-    width: 120px;
-    height: 60px;
+   width: 65%;
 }
 
 .socials i:hover {
@@ -102,7 +101,7 @@ body {
     display: inline-block;
 	font-size: 30px;
     margin-top: 20px;
-    padding-right: 100px;
+    padding-right: 150px;
     font-family: 'Alegreya', sans-serif;
 }
 
@@ -120,7 +119,7 @@ body {
 }
 
 
-/* Headline, paragraph, separator, button */
+/* Headline, paragraph, separator */
 .inside-wrapper {
     text-align:center;
     width: 80%;
@@ -173,9 +172,9 @@ body {
     margin-top: 50px;
 }
 
-#boxes .box h4 {
+#boxes .box h3 {
     font-size: 140%;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: 'Alegreya', sans-serif;
     font-weight: 500;
     color: rgb(3, 3, 3);
@@ -185,6 +184,7 @@ body {
     text-align: center;
     font-family: 'Alegreya', sans-serif;
     letter-spacing: 1px;
+    font-weight: 900;
     font-size: 16px;
 
 }
@@ -238,8 +238,8 @@ blockquote:before {
     content: "\201C";
     font-size: 80px;
     position: absolute;
-    top: -80px;
-    margin-left: 25px;
+    top: -90px;
+    margin-left: 60px;
     color: #c5b8b8;
     padding-top: 50px;
  }
@@ -257,7 +257,8 @@ blockquote:before {
   
 .column img {
     background-color: #f1f1f1;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 250px;
     margin-right: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -560,8 +561,9 @@ blockquote:before {
 
 @media only screen and (max-width: 1024px) {
     .column img {
-        width: 130px;
-        height: 130px;
+    
+        width: 140px;
+        height: 140px;
     }
     .boxwrap {
         padding: 50px;
@@ -638,7 +640,7 @@ blockquote:before {
 
 @media only screen and (max-width: 768px) {
     #boxes {
-        height: 900px;
+        height: 1000px;
     }
     #boxes2 {
         height: 1400px;
@@ -931,14 +933,6 @@ blockquote:after {
 }
 
 /* Stilizovanje navigacionog bara - logo, nab-bar, social icons*/
-.logo {
-    float: left;
-}
-
-.logo img {
-    width: 120px;
-    height: 60px;
-}
 
 .socials {
     margin-top: -30px;
@@ -966,40 +960,6 @@ blockquote:after {
     position: fixed;
     z-index: 1;
     
-}
-
-.nav-bar {
-   text-align: center;
-
-}
-
-.nav-bar span {
-    padding-right: 80px;
-    color:#FFF;
-}
-
-.nav-bar ul {
-	list-style: none;
-}
-
-.nav-bar ul li {
-    display: inline-block;
-	font-size: 30px;
-    margin-top: 20px;
-    padding-right: 100px;
-    font-family: 'Alegreya', sans-serif;
-}
-
-.nav-bar ul li a {
-    color: rgb(71, 62, 62);
-}
-
-.nav-bar ul li:hover {
-    color: #FFF;
-}
-
-.nav-bar .current {
-    color: #FFF;
 }
 
 
@@ -1394,14 +1354,7 @@ blockquote:after {
 }
 
 /* Stilizovanje navigacionog bara - logo, nab-bar, social icons*/
-.logo {
-    float: left;
-}
 
-.logo img {
-    width: 120px;
-    height: 60px;
-}
 
 .socials {
     margin-top: -30px;
@@ -1428,40 +1381,6 @@ blockquote:after {
     top:0;
     position: fixed;
     
-}
-
-.nav-bar {
-   text-align: center;
-
-}
-
-.nav-bar span {
-    padding-right: 80px;
-    color:#FFF;
-}
-
-.nav-bar ul {
-	list-style: none;
-}
-
-.nav-bar ul li {
-    display: inline-block;
-	font-size: 30px;
-    margin-top: 20px;
-    padding-right: 100px;
-    font-family: 'Alegreya', sans-serif;
-}
-
-.nav-bar ul a {
-    color: rgba(189, 178, 178, 0.651);
-}
-
-.nav-bar ul li:hover {
-    color: #FFF;
-}
-
-.nav-bar .current {
-    color: #FFF;
 }
 
 
