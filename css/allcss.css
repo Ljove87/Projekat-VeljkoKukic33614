@@ -172,7 +172,7 @@ body {
     margin-top: 50px;
 }
 
-#boxes .box h3 {
+#boxes .box h2 {
     font-size: 140%;
     padding-top: 30px;
     font-family: 'Alegreya', sans-serif;
@@ -197,11 +197,6 @@ body {
     color: #030303;
 }
 
-.box h2 {
-    padding-top: 50px;
-    font-size: 150%;
-
-}
 
 #boxes .box .cane{
     height: 150px;
@@ -282,7 +277,7 @@ blockquote:before {
     width: 80%;
 }
 
-#boxes2 .boxie h1 {
+#boxes2 .boxie h2 {
     line-height: 1.1em;
 }
 
@@ -320,10 +315,10 @@ blockquote:before {
     background: rgba(255, 245, 245, 0.562);
 }
 
-#boxes2 h1 {
+#boxes2 h2 {
     text-align:center;
     padding-top:80px;
-    font-size:250%;
+    font-size:230%;
     color: #ffffff;
 }
 
@@ -372,7 +367,7 @@ blockquote:before {
     margin-left: 60px;
    
 }
-.row h4 {
+.row h2 {
     text-align: center;
     font-family: "AlegreyaBold", sans-serif;
     font-size: 120%;
