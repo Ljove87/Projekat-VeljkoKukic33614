@@ -6,7 +6,8 @@ $(document).ready(function(){
       document.getElementById("myDropdown").classList.toggle("show");
   }
   
-  window.onclick = function(event) {
+  window.addEventListener('click', drop); 
+   function drop(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
       var i;
